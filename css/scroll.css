@@ -23,7 +23,7 @@ section::after {
 
 .demo a {
 	position: absolute;
-	bottom: 200px;
+	bottom: 90px;
 	left: 50%;
 	z-index: 2;
 	display: inline-block;
@@ -45,7 +45,7 @@ section::after {
 #section01 a span {
 	position: absolute;
 	bottom: 20px;
-	top: 0;	
+	top: 0;
 	left: 50%;
 	width: 24px;
 	height: 24px;

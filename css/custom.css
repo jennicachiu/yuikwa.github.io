@@ -3,26 +3,33 @@ body {
 	color: #8f8786;
 	background-color: #e8e8e8;
 	}
-	
+
 .img {
-   
+
 }
 h1.page-name {
 	text-align: center;
-	font-size: 20pt;
+	font-size: 10pt;
+	font-weight:bold;
 }
-h2, 
-h3, 
-h4, 
-h5, 
+h2.page-name{
+	text-align: center;
+	font-size: 15pt;
+	font-weight:bold;
+	}
+h3,
+h4,
+h5,
 h6 {
 	color: #8f8786;
 }
 
 .carousel-inner > .item > img {
-	width : auto;
-    height: 400px;
     margin: 0 auto;
+		height: 300px;
+		width: 500px;
+	  position: relative;
+	  padding: 0;
     float: center;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
@@ -37,7 +44,7 @@ h6 {
 	color: white;
 	text-shadow: 1px 1px 8px black;
 	}
-	
+
 .promo, .map-map {
 	border-width: 1px;
 	border-color: black;
@@ -65,7 +72,7 @@ h6 {
 }
 
 .promo-item:hover {
-    background-size: 110%; 
+    background-size: 110%;
     border: 5px solid black;
     line-height: 170px;
 }
@@ -79,15 +86,15 @@ h6 {
 .item-1 {
 	background: url('../images/mung_beans.jpg');
 	}
-	
+
 .item-2 {
 	background: url('../images/coffee_beans_1.jpg');
 	}
-	
+
 .item-3 {
 	background: url('../images/grapes.jpg');
 	}
-		
+
 .item-1,
 .item-2,
 .item-3 {
@@ -95,8 +102,8 @@ h6 {
 	background-position: 50% 50%;
 	}
 /*
-*************************** 
-Override Bootstrap Classes 
+***************************
+Override Bootstrap Classes
 ***************************
 */
 
